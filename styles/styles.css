@@ -2,6 +2,9 @@ header{
     display: grid;
     grid-auto-flow:column ;
     grid-row-start: 3;
+    background-color: #172F3B;
+
+    a{color: antiquewhite;}
 }
 
 
@@ -16,6 +19,7 @@ footer{
     display: grid;
     grid-auto-flow: column;
     grid-row-start: 1;
+    background-color: #172F3B;
 
 }
 
