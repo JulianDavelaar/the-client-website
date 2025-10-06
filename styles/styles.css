@@ -1,0 +1,25 @@
+header{
+    display: grid;
+    grid-auto-flow:column ;
+    grid-row-start: 3;
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+
+}
+
+footer{
+    display: grid;
+    grid-auto-flow: column;
+    grid-row-start: 1;
+
+}
+
+body{
+    display: grid;
+   
+}
