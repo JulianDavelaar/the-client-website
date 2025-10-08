@@ -6,13 +6,9 @@ header{
 
     a{color: antiquewhite;}
 }
-
-
-main{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1rem;
-
+img{
+    border-radius: 15%;
+    aspect-ratio: 1/1;
 }
 
 footer{
@@ -26,4 +22,30 @@ footer{
 body{
     display: grid;
    
+}
+
+.img-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+
+    @media (min-width: 350px) {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media (min-width: 580px) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    @media (min-width: 800px) {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    @media (min-width: 1050px) {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+.img-grid > img {
+    width: 100%; height: auto;
 }
