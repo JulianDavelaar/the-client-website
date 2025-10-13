@@ -52,8 +52,10 @@ body{
     width: 100%; height: auto;
 }
 
-.header{
-    position:sticky;
+.header{ 
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(3px);
 }
 
 button {
